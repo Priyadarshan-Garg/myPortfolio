@@ -46,7 +46,7 @@ A modern, **responsive, and high-performance personal portfolio** website, metic
 ## 📸 Live Preview
 
 Experience the portfolio live:
-👉 [**Priyadarshan's Portfolio Live Demo**]()
+👉 [**Priyadarshan's Portfolio Live Demo**](https://priyadarshangarg.netlify.app/)
 
 ---
 
