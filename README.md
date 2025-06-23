@@ -31,7 +31,7 @@ A modern, **responsive, and high-performance personal portfolio** website, metic
     * **Particles.js:** For creating customizable, interactive particle backgrounds.
 * **Development Tools:**
     * **Git & GitHub:** For version control and collaborative development.
-    * *(Optional: Add your IDE/Editor, e.g., Visual Studio Code)*
+    * **WebStorm:** For editing 
 
 ---
 
