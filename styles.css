@@ -15,7 +15,23 @@
   scrollbar-width: none; /* For Firefox */
     /* scroll-behavior: smooth; */
   }
-  
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.button {
+    font-size: clamp(1.5rem, 8vw, 2em);
+    max-width: 100%;
+    word-wrap: break-word;
+}
   body::-webkit-scrollbar {
     display: none; /* For Chrome, Safari, and Opera */
   }
@@ -38,11 +54,13 @@
 /* Font and base letter style */
 .loading-text span {
   font-family: "Special Gothic Expanded One", sans-serif;
-  font-size: 120px;
+  font-size: clamp(1.75rem, 9vw, 6rem);
+  line-height: 1;
   color: rgba(255, 255, 255, 0.1);
   position: relative;
   display: inline-block;
   opacity: 0;
+  flex: 0 1 auto;
 }
 
 /* Glowing overlay */
